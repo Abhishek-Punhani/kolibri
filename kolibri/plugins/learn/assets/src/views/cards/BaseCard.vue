@@ -65,6 +65,7 @@
 
 <script>
 
+  import { validateLinkObject } from 'kolibri/utils/validators';
   import CardLink from './CardLink.vue';
 
   /**
@@ -86,6 +87,7 @@
       to: {
         type: Object,
         required: true,
+        validator: validateLinkObject,
       },
       title: {
         type: String,

@@ -182,7 +182,7 @@
             title: { type: String, required: true },
             description: { type: String, required: false },
             duration: { type: Number, required: false },
-            grade_levels: { type: Array, required: false },
+            grade_levels: { type: Object, required: false },
             lang: {
               type: Object,
               required: false,

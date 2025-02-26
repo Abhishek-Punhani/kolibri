@@ -73,15 +73,15 @@
         validator(value) {
           return validateObject(value, {
             accessibility_labels: {
-              type: Array,
+              type: Object,
               required: true,
             },
             languages: {
-              type: Array,
+              type: Object,
               required: true,
             },
             grade_levels: {
-              type: Array,
+              type: Object,
               required: true,
             },
           });

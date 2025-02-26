@@ -148,7 +148,6 @@
         type: Array,
         required: true,
         default: () => [],
-        /** Content node with the following properties: id, is_leaf, title */
         validator: function (nodes) {
           return nodes.every(node =>
             validateObject(node, {

@@ -144,6 +144,14 @@
     text-align: left;
   }
 
+  /deep/ .core-table {
+    display: table;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    table-layout: fixed;
+  }
+
   /deep/ th,
   /deep/ td {
     padding: 12px 8px;
@@ -152,8 +160,12 @@
   }
 
   /deep/ td {
+    display: inline-block;
     max-width: 300px;
+    padding-bottom: 4px;
     overflow-x: auto;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   /deep/ .core-table-checkbox-col {

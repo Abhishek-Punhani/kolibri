@@ -20,7 +20,7 @@
             v-for="user in facilityUsers"
             :key="user.id"
           >
-            <td>
+            <td class="scrollable-text">
               <KLabeledIcon :label="fullNameLabel(user)">
                 <template #icon>
                   <PermissionsIcon

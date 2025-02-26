@@ -1,5 +1,4 @@
 <template>
-
   <DeviceAppBarPage :title="pageTitle">
     <transition name="delay<-entry">
       <PostSetupModalGroup
@@ -76,12 +75,9 @@
       </div>
     </KPageContainer>
   </DeviceAppBarPage>
-
 </template>
 
-
 <script>
-
   import find from 'lodash/find';
 
   import get from 'lodash/get';
@@ -295,12 +291,9 @@
       },
     },
   };
-
 </script>
 
-
 <style lang="scss" scoped>
-
   @import '../../styles/definitions';
 
   .device-container {
@@ -310,5 +303,4 @@
   .buttons {
     margin: auto;
   }
-
 </style>

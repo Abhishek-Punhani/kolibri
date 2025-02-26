@@ -135,6 +135,15 @@
     font-size: 14px;
   }
 
+  .scrollable-text {
+    display: block;
+    max-width: 300px;
+    padding-bottom: 4px;
+    overflow-x: auto;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
   /deep/ thead th {
     text-align: left;
     vertical-align: bottom;

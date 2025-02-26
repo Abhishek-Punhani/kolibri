@@ -1,5 +1,11 @@
 .. _getting_started:
 
+
+``` bash
+export KOLIBRI_HOME="/home/manav/dev_ws/111"
+kolibri start --port=8001 --foreground --settings=kolibri.deployment.default.settings.dev
+```
+
 Getting started
 ===============
 
